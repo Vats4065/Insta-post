@@ -28,19 +28,8 @@ function Signup() {
       })
       .catch((err) => console.log(err));
 
-    // let result = await fetch("http://localhost:8090/signup", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify({
-    //     username: username,
-    //     email: email,
-    //     password: password,
-    //   }),
-    // });
+
     console.log(username, email, password);
-    // console.log(result);
     empty();
   };
 

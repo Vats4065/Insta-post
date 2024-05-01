@@ -15,8 +15,8 @@ function App() {
       <Routes>
         <Route element={<PrivaiteComponent />}>
           <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/mypost" element={<Mypost />}></Route>
         </Route>
-        <Route exact path="/mypost" element={<Mypost />}></Route>
         <Route exact path="/login" element={<Login />}></Route>
         <Route exact path="/signup" element={<Signup />}></Route>
       </Routes>
