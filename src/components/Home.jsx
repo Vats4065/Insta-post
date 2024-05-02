@@ -4,6 +4,7 @@ import axios from "axios";
 function Home() {
 
   const [post, setPost] = useState([]);
+  
   const user = localStorage.getItem("login");
   
   const userData = JSON.parse(user);

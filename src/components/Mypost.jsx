@@ -20,7 +20,9 @@ function Mypost() {
       .post("http://localhost:8080/addpost", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
+          
         },
+        
       })
       .then((res) => console.log("res,", res.data))
       .catch((err) => console.log(err));
